@@ -129,7 +129,7 @@ h1{
 .coupon{
 	background: white;
 	color: black;
-	animation: rotate 3s linear 2s infinite running;
+	animation: rotate 3s linear 1s infinite running;
 }
 
  @keyframes rotate {
