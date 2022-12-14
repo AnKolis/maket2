@@ -111,22 +111,36 @@ h1{
 	background: transparent;
 	color: white;
 	margin-right: 30px;
+	animation: rotate 3s linear 2s infinite;
+	animation-play-state:running;
 }
+ @keyframes rotate {
+ 	0%{transform: none;}
+ 	50%{transform: scale(1.1);}	
+ }
 
 .buy:hover{
 	background: white;
 	color: #c48428;
 	border: 2px solid #c48428 ;
+	animation: none;
 }
 
 .coupon{
 	background: white;
-	color: black;	
+	color: black;
+	animation: rotate 3s linear 2s infinite running;
 }
+
+ @keyframes rotate {
+ 	0%{transform: none;}
+ 	50%{transform: scale(1.1);}	
+ }	
 
 .coupon:hover{
 	background: #c48428;
-	color: white;	
+	color: white;
+	animation: none;	
 }
 
 .content ul{
